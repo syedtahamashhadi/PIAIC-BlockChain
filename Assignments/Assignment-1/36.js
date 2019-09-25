@@ -28,5 +28,8 @@ document.getElementById("sDay").appendChild(sDayText);
 var tSnackText = document.createTextNode(getSupply(cAge,maxAge,perDay));
 document.getElementById("tSnack").appendChild(tSnackText);
 
+var sText= document.createTextNode(favSnack)
+document.getElementById("snack").appendChild(sText)
+
 var mAgeText = document.createTextNode(maxAge);
 document.getElementById("mAge2").appendChild(mAgeText);
