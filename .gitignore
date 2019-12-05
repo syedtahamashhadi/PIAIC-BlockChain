@@ -1,4 +1,9 @@
 /Books/
+/Class/
+/Node-JS/
+/Projects/
+/Test-Net/
 *.doc
 *.txt
 *.pdf
+*.exe
