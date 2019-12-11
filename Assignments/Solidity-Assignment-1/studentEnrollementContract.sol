@@ -5,7 +5,7 @@ Rules for StudentEnrollmentContract
 2) amount must be greater than or equals to 2 ether
 3) setStudentInfo can only be accessible to Student
 4) checkCollectedAmount can only be accessible to onlyOwner
-5)Once the amount is paid it cant be paid again
+5) Once the amount is paid it cant be paid again with same address
 
 Happy Coding :-) @Syed Taha
 
