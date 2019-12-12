@@ -60,7 +60,7 @@ contract StudentEnrollmentContract{
       
         require(msg.value >= requiredAmount );
         require(people[msg.sender].isPaid == false);
-        msg.sender.transfer(msg.value);
+        ownerAddress.transfer(msg.value);
         people[msg.sender].amount=msg.value;
         people[msg.sender].isPaid=true;
         studentRegistered = studentRegistered+1;
@@ -79,5 +79,4 @@ contract StudentEnrollmentContract{
     
 
     
-   
 }
