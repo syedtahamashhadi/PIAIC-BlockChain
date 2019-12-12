@@ -52,7 +52,7 @@ contract StudentEnrollmentContract{
     
     mapping(address => Student) public people;
     
-    function setStudentInfo(address payable _add,string memory _name,bool _isDegree,Status _status,Gender _gender) public payable onlyStudent{
+    function setStudentInfo(address payable _add,string memory _name,bool _isDegree,Status _status,Gender _gender) public onlyStudent{
         people[msg.sender] = Student(_add,_name,0,_status,_gender,false,_isDegree,true);
     }
     
